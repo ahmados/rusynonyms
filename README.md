@@ -39,4 +39,5 @@ print(next(ag.get_list(word)))
 
 ## Автор
 Sumekenov Akhmad, sumekenov@gmail.com, t.me/sumekenov 
+
 Finetuned by Artem Gribul
