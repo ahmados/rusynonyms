@@ -10,5 +10,5 @@ class AntonymsGraph(LexicalGraphInterface):
     """
 
     def _initialize_graph(self) -> nx.Graph:
-        graph_path = str(Path(__file__).parent.parent / "_data/antonyms.adjlist")
+        graph_path = str(Path(__file__).parent / "_data/antonyms.adjlist")
         return nx.read_adjlist(graph_path)
