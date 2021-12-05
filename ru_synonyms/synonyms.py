@@ -10,5 +10,5 @@ class SynonymsGraph(LexicalGraphInterface):
     """
 
     def _initialize_graph(self) -> nx.Graph:
-        graph_path = str(Path(__file__).parent.parent / "_data/synonyms.adjlist")
+        graph_path = str(Path(__file__).parent / "_data/synonyms.adjlist")
         return nx.read_adjlist(graph_path)
