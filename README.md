@@ -41,3 +41,6 @@ print(next(ag.get_list(word)))
 Sumekenov Akhmad, sumekenov@gmail.com, t.me/sumekenov 
 
 Finetuned by Artem Gribul
+
+## Update 07.12
+Included package data in setup.py, otherwise not working
