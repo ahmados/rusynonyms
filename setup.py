@@ -24,6 +24,6 @@ setup(
     version="0.0.2",
     packages=find_packages(exclude=["tests", "tests.*"]),
     install_requires=_load_requirements(THIS_DIR),
-    package_data={'': ['_data/synonyms.adjlist', '_data/antonyms.adjlist', ]},
+    package_data={'': ['_data/synonyms.adjlist', '_data/antonyms.adjlist']},
     include_package_data=True,
 )
